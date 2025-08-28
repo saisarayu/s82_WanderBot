@@ -1,32 +1,32 @@
-# s82_WanderBot
+WanderBot
 
-WanderBot is an interactive chatbot powered by Google's Gemini API.  
-It supports dynamic prompting, allowing users to interact with the bot and receive helpful, concise responses.
+WanderBot is a community-driven travel platform that allows users to explore new places, share travel experiences, and discover personalized recommendations based on real-time weather and seasons. Businesses such as hotels, restaurants, and tour guides can also promote themselves to potential travelers directly.
 
-## Features
+This project is built using MERN stack technologies (MongoDB, Express.js, React, Node.js) and integrates APIs for dynamic weather-based suggestions.
 
-- Zero-shot chat interface using Gemini API
-- Dynamic system and user prompts
-- Easy configuration via `.env` file
+Features
+User Features
 
-## Getting Started
+Share Experiences: Users can upload their travel stories, including images, descriptions, and locations.
 
-1. Install dependencies:
-   ```
-   pip install requests python-dotenv
-   ```
-2. Set up your `.env` file with:
-   ```
-   GENAI_API_KEY=your_api_key_here
-   GEMINI_MODEL=gemini-2.0
-   GEMINI_API_VERSION=v1beta
-   ```
-3. Run the bot:
-   ```
-   python ZeroShot.py
-   ```
+Personalized Recommendations: Travel suggestions based on the current season and weather.
 
-## Dynamic Prompting
+View Hotels: Users can browse available hotels in different locations.
 
-The bot uses dynamic prompting to adapt its responses based on user input and system instructions.  
-You can modify the system instructions in `ZeroShot.py
+Interactive Dashboard: View shared experiences from the community.
+
+Business Features
+
+Promotions: Businesses can promote themselves to travelers looking for services like hotels, restaurants, and tours.
+
+Tech Stack
+
+Frontend: React.js, HTML5, CSS3, Tailwind CSS
+
+Backend: Node.js, Express.js
+
+Database: MongoDB
+
+APIs: Weather APIs, Hotels APIs
+
+Other Tools: Axios for HTTP requests, Cloudinary (optional) for image uploads
