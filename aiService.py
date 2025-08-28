@@ -2,6 +2,7 @@ import os
 import requests
 from dotenv import load_dotenv
 
+
 load_dotenv()
 
 API_KEY = os.getenv("GENAI_API_KEY")
@@ -11,7 +12,7 @@ url = f"https://api.generativelanguage.googleapis.com/v1beta/models/{MODEL}:gene
 
 payload = {
     "prompt": "Explain quantum physics in simple terms", # <prompt> is here
-    "temperature": 0.7,  # Update the temperature here
+    "temperature": 0.7,  
     "maxOutputTokens": 200
 }
 
